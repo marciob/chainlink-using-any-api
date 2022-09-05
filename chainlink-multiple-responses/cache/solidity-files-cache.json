@@ -1,0 +1,1101 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/m/Desktop/dev/web3/chainlink-api-request/chainlink-single-response/contracts/APIConsumer.sol": {
+      "lastModificationDate": 1662399804483,
+      "contentHash": "4c17f471b9340e2a546be5369c45e9a8",
+      "sourceName": "contracts/APIConsumer.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@chainlink/contracts/src/v0.8/ChainlinkClient.sol",
+        "@chainlink/contracts/src/v0.8/ConfirmedOwner.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "APIConsumer"
+      ]
+    },
+    "/Users/m/Desktop/dev/web3/chainlink-api-request/chainlink-single-response/node_modules/@chainlink/contracts/src/v0.8/ConfirmedOwner.sol": {
+      "lastModificationDate": 1662399690084,
+      "contentHash": "16d64572b0310127fc8a771e63be6d20",
+      "sourceName": "@chainlink/contracts/src/v0.8/ConfirmedOwner.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ConfirmedOwnerWithProposal.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ConfirmedOwner"
+      ]
+    },
+    "/Users/m/Desktop/dev/web3/chainlink-api-request/chainlink-single-response/node_modules/@chainlink/contracts/src/v0.8/ChainlinkClient.sol": {
+      "lastModificationDate": 1662399690084,
+      "contentHash": "6af479cbde42f1a7225c9cebc6e32239",
+      "sourceName": "@chainlink/contracts/src/v0.8/ChainlinkClient.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Chainlink.sol",
+        "./interfaces/ENSInterface.sol",
+        "./interfaces/LinkTokenInterface.sol",
+        "./interfaces/ChainlinkRequestInterface.sol",
+        "./interfaces/OperatorInterface.sol",
+        "./interfaces/PointerInterface.sol",
+        "./vendor/ENSResolver.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ChainlinkClient"
+      ]
+    },
+    "/Users/m/Desktop/dev/web3/chainlink-api-request/chainlink-single-response/node_modules/@chainlink/contracts/src/v0.8/ConfirmedOwnerWithProposal.sol": {
+      "lastModificationDate": 1662399690085,
+      "contentHash": "8b1c5f02622cd87472493bda6595d1be",
+      "sourceName": "@chainlink/contracts/src/v0.8/ConfirmedOwnerWithProposal.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/OwnableInterface.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ConfirmedOwnerWithProposal"
+      ]
+    },
+    "/Users/m/Desktop/dev/web3/chainlink-api-request/chainlink-single-response/node_modules/@chainlink/contracts/src/v0.8/interfaces/OwnableInterface.sol": {
+      "lastModificationDate": 1662399690258,
+      "contentHash": "2e814c8a9f77897f6995436d97c23d99",
+      "sourceName": "@chainlink/contracts/src/v0.8/interfaces/OwnableInterface.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "OwnableInterface"
+      ]
+    },
+    "/Users/m/Desktop/dev/web3/chainlink-api-request/chainlink-single-response/node_modules/@chainlink/contracts/src/v0.8/Chainlink.sol": {
+      "lastModificationDate": 1662399690083,
+      "contentHash": "9dc050539cdf1579d5650d41d0df9ec2",
+      "sourceName": "@chainlink/contracts/src/v0.8/Chainlink.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./vendor/CBORChainlink.sol",
+        "./vendor/BufferChainlink.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Chainlink"
+      ]
+    },
+    "/Users/m/Desktop/dev/web3/chainlink-api-request/chainlink-single-response/node_modules/@chainlink/contracts/src/v0.8/interfaces/LinkTokenInterface.sol": {
+      "lastModificationDate": 1662399690257,
+      "contentHash": "da5a0c3bd86c896f6a407f909c57edf3",
+      "sourceName": "@chainlink/contracts/src/v0.8/interfaces/LinkTokenInterface.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "LinkTokenInterface"
+      ]
+    },
+    "/Users/m/Desktop/dev/web3/chainlink-api-request/chainlink-single-response/node_modules/@chainlink/contracts/src/v0.8/interfaces/ChainlinkRequestInterface.sol": {
+      "lastModificationDate": 1662399690255,
+      "contentHash": "14407a6ead15cff8a0e0a7f8037c68f5",
+      "sourceName": "@chainlink/contracts/src/v0.8/interfaces/ChainlinkRequestInterface.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ChainlinkRequestInterface"
+      ]
+    },
+    "/Users/m/Desktop/dev/web3/chainlink-api-request/chainlink-single-response/node_modules/@chainlink/contracts/src/v0.8/interfaces/ENSInterface.sol": {
+      "lastModificationDate": 1662399690255,
+      "contentHash": "06b6aefcae95de6d1597ad8e1d73a08b",
+      "sourceName": "@chainlink/contracts/src/v0.8/interfaces/ENSInterface.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ENSInterface"
+      ]
+    },
+    "/Users/m/Desktop/dev/web3/chainlink-api-request/chainlink-single-response/node_modules/@chainlink/contracts/src/v0.8/vendor/ENSResolver.sol": {
+      "lastModificationDate": 1662399690276,
+      "contentHash": "24a98b0606654e662097eed9ffa91a11",
+      "sourceName": "@chainlink/contracts/src/v0.8/vendor/ENSResolver.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ENSResolver"
+      ]
+    },
+    "/Users/m/Desktop/dev/web3/chainlink-api-request/chainlink-single-response/node_modules/@chainlink/contracts/src/v0.8/interfaces/OperatorInterface.sol": {
+      "lastModificationDate": 1662399690258,
+      "contentHash": "e1822c36361fc3a26b5a68df3ddab15d",
+      "sourceName": "@chainlink/contracts/src/v0.8/interfaces/OperatorInterface.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./OracleInterface.sol",
+        "./ChainlinkRequestInterface.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "OperatorInterface"
+      ]
+    },
+    "/Users/m/Desktop/dev/web3/chainlink-api-request/chainlink-single-response/node_modules/@chainlink/contracts/src/v0.8/interfaces/PointerInterface.sol": {
+      "lastModificationDate": 1662399690258,
+      "contentHash": "27da4b2007d200dd5afff31dbf31ac99",
+      "sourceName": "@chainlink/contracts/src/v0.8/interfaces/PointerInterface.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "PointerInterface"
+      ]
+    },
+    "/Users/m/Desktop/dev/web3/chainlink-api-request/chainlink-single-response/node_modules/@chainlink/contracts/src/v0.8/vendor/CBORChainlink.sol": {
+      "lastModificationDate": 1662399690276,
+      "contentHash": "99b3ee2c29bc0d1a5cba583d9e8d835e",
+      "sourceName": "@chainlink/contracts/src/v0.8/vendor/CBORChainlink.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./BufferChainlink.sol"
+      ],
+      "versionPragmas": [
+        ">=0.4.19"
+      ],
+      "artifacts": [
+        "CBORChainlink"
+      ]
+    },
+    "/Users/m/Desktop/dev/web3/chainlink-api-request/chainlink-single-response/node_modules/@chainlink/contracts/src/v0.8/vendor/BufferChainlink.sol": {
+      "lastModificationDate": 1662399690275,
+      "contentHash": "52ac6f99fb0635751ae4ed11139878fd",
+      "sourceName": "@chainlink/contracts/src/v0.8/vendor/BufferChainlink.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "BufferChainlink"
+      ]
+    },
+    "/Users/m/Desktop/dev/web3/chainlink-api-request/chainlink-single-response/node_modules/@chainlink/contracts/src/v0.8/interfaces/OracleInterface.sol": {
+      "lastModificationDate": 1662399690258,
+      "contentHash": "6283e42024961596926c2b5015eef8e0",
+      "sourceName": "@chainlink/contracts/src/v0.8/interfaces/OracleInterface.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "OracleInterface"
+      ]
+    },
+    "/Users/m/Desktop/dev/web3/chainlink-api-request/chainlink-multiple-responses/contracts/MultipleAPIConsumer.sol": {
+      "lastModificationDate": 1662401896937,
+      "contentHash": "247c37bda4fdf97b25bfb6a92ea11424",
+      "sourceName": "contracts/MultipleAPIConsumer.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@chainlink/contracts/src/v0.8/ChainlinkClient.sol",
+        "@chainlink/contracts/src/v0.8/ConfirmedOwner.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "MultipleAPIConsumer"
+      ]
+    },
+    "/Users/m/Desktop/dev/web3/chainlink-api-request/chainlink-multiple-responses/node_modules/@chainlink/contracts/src/v0.8/ConfirmedOwner.sol": {
+      "lastModificationDate": 1662401281488,
+      "contentHash": "16d64572b0310127fc8a771e63be6d20",
+      "sourceName": "@chainlink/contracts/src/v0.8/ConfirmedOwner.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ConfirmedOwnerWithProposal.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ConfirmedOwner"
+      ]
+    },
+    "/Users/m/Desktop/dev/web3/chainlink-api-request/chainlink-multiple-responses/node_modules/@chainlink/contracts/src/v0.8/ChainlinkClient.sol": {
+      "lastModificationDate": 1662401281486,
+      "contentHash": "6af479cbde42f1a7225c9cebc6e32239",
+      "sourceName": "@chainlink/contracts/src/v0.8/ChainlinkClient.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Chainlink.sol",
+        "./interfaces/ENSInterface.sol",
+        "./interfaces/LinkTokenInterface.sol",
+        "./interfaces/ChainlinkRequestInterface.sol",
+        "./interfaces/OperatorInterface.sol",
+        "./interfaces/PointerInterface.sol",
+        "./vendor/ENSResolver.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ChainlinkClient"
+      ]
+    },
+    "/Users/m/Desktop/dev/web3/chainlink-api-request/chainlink-multiple-responses/node_modules/@chainlink/contracts/src/v0.8/ConfirmedOwnerWithProposal.sol": {
+      "lastModificationDate": 1662401281489,
+      "contentHash": "8b1c5f02622cd87472493bda6595d1be",
+      "sourceName": "@chainlink/contracts/src/v0.8/ConfirmedOwnerWithProposal.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/OwnableInterface.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ConfirmedOwnerWithProposal"
+      ]
+    },
+    "/Users/m/Desktop/dev/web3/chainlink-api-request/chainlink-multiple-responses/node_modules/@chainlink/contracts/src/v0.8/interfaces/OwnableInterface.sol": {
+      "lastModificationDate": 1662401281640,
+      "contentHash": "2e814c8a9f77897f6995436d97c23d99",
+      "sourceName": "@chainlink/contracts/src/v0.8/interfaces/OwnableInterface.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "OwnableInterface"
+      ]
+    },
+    "/Users/m/Desktop/dev/web3/chainlink-api-request/chainlink-multiple-responses/node_modules/@chainlink/contracts/src/v0.8/Chainlink.sol": {
+      "lastModificationDate": 1662401281486,
+      "contentHash": "9dc050539cdf1579d5650d41d0df9ec2",
+      "sourceName": "@chainlink/contracts/src/v0.8/Chainlink.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./vendor/CBORChainlink.sol",
+        "./vendor/BufferChainlink.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Chainlink"
+      ]
+    },
+    "/Users/m/Desktop/dev/web3/chainlink-api-request/chainlink-multiple-responses/node_modules/@chainlink/contracts/src/v0.8/interfaces/ENSInterface.sol": {
+      "lastModificationDate": 1662401281636,
+      "contentHash": "06b6aefcae95de6d1597ad8e1d73a08b",
+      "sourceName": "@chainlink/contracts/src/v0.8/interfaces/ENSInterface.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ENSInterface"
+      ]
+    },
+    "/Users/m/Desktop/dev/web3/chainlink-api-request/chainlink-multiple-responses/node_modules/@chainlink/contracts/src/v0.8/interfaces/ChainlinkRequestInterface.sol": {
+      "lastModificationDate": 1662401281626,
+      "contentHash": "14407a6ead15cff8a0e0a7f8037c68f5",
+      "sourceName": "@chainlink/contracts/src/v0.8/interfaces/ChainlinkRequestInterface.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ChainlinkRequestInterface"
+      ]
+    },
+    "/Users/m/Desktop/dev/web3/chainlink-api-request/chainlink-multiple-responses/node_modules/@chainlink/contracts/src/v0.8/interfaces/LinkTokenInterface.sol": {
+      "lastModificationDate": 1662401281639,
+      "contentHash": "da5a0c3bd86c896f6a407f909c57edf3",
+      "sourceName": "@chainlink/contracts/src/v0.8/interfaces/LinkTokenInterface.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "LinkTokenInterface"
+      ]
+    },
+    "/Users/m/Desktop/dev/web3/chainlink-api-request/chainlink-multiple-responses/node_modules/@chainlink/contracts/src/v0.8/interfaces/PointerInterface.sol": {
+      "lastModificationDate": 1662401281640,
+      "contentHash": "27da4b2007d200dd5afff31dbf31ac99",
+      "sourceName": "@chainlink/contracts/src/v0.8/interfaces/PointerInterface.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "PointerInterface"
+      ]
+    },
+    "/Users/m/Desktop/dev/web3/chainlink-api-request/chainlink-multiple-responses/node_modules/@chainlink/contracts/src/v0.8/interfaces/OperatorInterface.sol": {
+      "lastModificationDate": 1662401281639,
+      "contentHash": "e1822c36361fc3a26b5a68df3ddab15d",
+      "sourceName": "@chainlink/contracts/src/v0.8/interfaces/OperatorInterface.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./OracleInterface.sol",
+        "./ChainlinkRequestInterface.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "OperatorInterface"
+      ]
+    },
+    "/Users/m/Desktop/dev/web3/chainlink-api-request/chainlink-multiple-responses/node_modules/@chainlink/contracts/src/v0.8/vendor/ENSResolver.sol": {
+      "lastModificationDate": 1662401281659,
+      "contentHash": "24a98b0606654e662097eed9ffa91a11",
+      "sourceName": "@chainlink/contracts/src/v0.8/vendor/ENSResolver.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ENSResolver"
+      ]
+    },
+    "/Users/m/Desktop/dev/web3/chainlink-api-request/chainlink-multiple-responses/node_modules/@chainlink/contracts/src/v0.8/vendor/CBORChainlink.sol": {
+      "lastModificationDate": 1662401281659,
+      "contentHash": "99b3ee2c29bc0d1a5cba583d9e8d835e",
+      "sourceName": "@chainlink/contracts/src/v0.8/vendor/CBORChainlink.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./BufferChainlink.sol"
+      ],
+      "versionPragmas": [
+        ">=0.4.19"
+      ],
+      "artifacts": [
+        "CBORChainlink"
+      ]
+    },
+    "/Users/m/Desktop/dev/web3/chainlink-api-request/chainlink-multiple-responses/node_modules/@chainlink/contracts/src/v0.8/vendor/BufferChainlink.sol": {
+      "lastModificationDate": 1662401281658,
+      "contentHash": "52ac6f99fb0635751ae4ed11139878fd",
+      "sourceName": "@chainlink/contracts/src/v0.8/vendor/BufferChainlink.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "BufferChainlink"
+      ]
+    },
+    "/Users/m/Desktop/dev/web3/chainlink-api-request/chainlink-multiple-responses/node_modules/@chainlink/contracts/src/v0.8/interfaces/OracleInterface.sol": {
+      "lastModificationDate": 1662401281639,
+      "contentHash": "6283e42024961596926c2b5015eef8e0",
+      "sourceName": "@chainlink/contracts/src/v0.8/interfaces/OracleInterface.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "OracleInterface"
+      ]
+    }
+  }
+}
