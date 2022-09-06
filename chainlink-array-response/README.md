@@ -1,3 +1,3 @@
-# Chainlink single response/
+# Chainlink array response
 
-Using Chainlink API to get ETH 24h volume in USD.
+Using Chainlink API to get data from a JSON array.
