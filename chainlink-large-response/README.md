@@ -1,3 +1,3 @@
-# Chainlink array response
+# Chainlink large response
 
-Using Chainlink API to get data from a JSON array.
+Using Chainlink API to get large response.
